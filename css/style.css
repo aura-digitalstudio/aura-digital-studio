@@ -312,6 +312,23 @@ h3 { font-size: 1.22rem; letter-spacing: -0.01em; }
   border: 1.5px solid var(--oro); border-bottom: 0; border-right-color: transparent;
   border-radius: 8px 8px 0 0;
 }
+/* El precio de entrada, mostrado en vez de un "Consultanos" ciego: un número
+   real filtra mejor que un misterio — el 12/08, decisión de reemplazar el
+   "Consultanos" puro por un piso concreto ya definido en el catálogo. */
+.plan-precio {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--oro);
+  margin-bottom: 16px;
+}
+.plan-precio span {
+  font-weight: 400;
+  color: var(--papel-suave);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
 /* Botón con borde, no un link de texto: en una página de servicios el
    llamado a la acción tiene que verse como un botón, no como una nota al pie.
    Es la corrección de "esto lo ve un cliente, tiene que verse profesional". */
